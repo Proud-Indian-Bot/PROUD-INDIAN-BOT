@@ -256,7 +256,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
   <a href="https://t.me/@divya_9955"><img src="https://img.shields.io/badge/𝗠𝘀•𝗟𝗘𝗚𝗘𝗡𝗗𝗚𝗜𝗥𝗟_%20-orange.svg?style=for-the-badge&logo=Telegram"></a>
   
- <a href="https://t.me/@agora_swamy"><img src="https://img.shields.io/badge/𝗠𝗿•𝗦𝗧𝗢𝗡𝗘𝗗𝗟𝗘𝗚𝗘𝗡𝗗%20-white.svg?style=for-the-badge&logo=Telegram"></a>
+ <a href="https://t.me/@agora_swamy"><img src="https://img.shields.io/badge/𝗠𝗿•𝗔𝗚𝗢𝗥𝗔%20-white.svg?style=for-the-badge&logo=Telegram"></a>
  
  <a href="https://t.me/@legendboy_op"><img src="https://img.shields.io/badge/𝗠𝗿•𝗟𝗘𝗚𝗘𝗡𝗗𝗕𝗢𝗬_%20-darkgreen.svg?style=for-the-badge&logo=Telegram"></a>
   
