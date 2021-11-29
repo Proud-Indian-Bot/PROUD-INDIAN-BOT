@@ -35,7 +35,7 @@ except Exception as e:
     sys.exit()
 
 
-Legend = TelegramClient(
+Legendbot = TelegramClient(
     session="proudindianbot",
     api_id=Config.APP_ID,
     api_hash=Config.API_HASH,
