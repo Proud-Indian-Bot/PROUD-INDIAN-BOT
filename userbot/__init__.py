@@ -15,8 +15,8 @@ LEGENDversion = "𝚅3.0"
 botversion = "𝚅3.0"
 from .k import *
 
-if Config.PROUD-INDIAN_STRING:
-    session = StringSession(str(Config.PROUD-INDIAN_STRING))
+if Config.PROUD_STRING:
+    session = StringSession(str(Config.PROUD_STRING))
 else:
     session = "proud indian bot"
 
@@ -31,7 +31,7 @@ try:
         connection_retries=None,
     )
 except Exception as e:
-    print(f"PROUD-INDIAN_STRING - {e}")
+    print(f"PROUD_STRING - {e}")
     sys.exit()
 
 
