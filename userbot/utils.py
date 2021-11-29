@@ -185,7 +185,7 @@ def load_addons(shortname):
         sys.modules["userbot.events"] = userbot.utils
         spec.loader.exec_module(mod)
         # for imports
-        sys.modules["LegendBot-Addons." + shortname] = mod
+        sys.modules["PROUD-INDIAN-BOT-Addons." + shortname] = mod
         LOGS.info("📍Extra Plugin📍 ~ " + shortname)
 
 
