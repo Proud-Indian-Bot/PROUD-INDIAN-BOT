@@ -13,12 +13,13 @@ BOTLOG = True
 StartTime = time.time()
 LEGENDversion = "𝚅3.0"
 botversion = "𝚅3.0"
+PROUD-INDIAN_version= "1.0"
 from .k import *
 
-if Config.LEGEND_STRING:
-    session = StringSession(str(Config.LEGEND_STRING))
+if Config.PROUD-INDIAN_STRING:
+    session = StringSession(str(Config.PROUD-INDIAN_STRING))
 else:
-    session = "legendbot"
+    session = "proud indian bot"
 
 
 try:
@@ -31,12 +32,12 @@ try:
         connection_retries=None,
     )
 except Exception as e:
-    print(f"LEGEND_STRING - {e}")
+    print(f"PROUD-INDIAN_STRING - {e}")
     sys.exit()
 
 
 LegendBot = TelegramClient(
-    session="Legend-Bot",
+    session="proud indian bot",
     api_id=Config.APP_ID,
     api_hash=Config.API_HASH,
     connection=ConnectionTcpAbridged,
@@ -61,7 +62,7 @@ LOAD_PLUG = {}
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
 
-LEGEND_ID = ["2082798662"]
+PROUD-INDIAN_ID = ["2082798662"]
 
 """ PPE initialization. """
 
