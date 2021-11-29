@@ -20,7 +20,7 @@ from userbot.utils import (
 from var import Var
 
 l2 = Config.SUDO_COMMAND_HAND_LER
-ZIDDI_PIC = "https://te.legra.ph/file/c9bbbf280ec3bec0c231c.jpg"
+PROUD-INDIAN_PIC = "https://telegra.ph/file/4605803a2e47710627a6d.jpg"
 l1 = Config.COMMAND_HAND_LER
 
 
@@ -30,7 +30,7 @@ async def add_bot(bot_token):
         bot.me = await bot.get_me()
         bot.uid = telethon.utils.get_peer_id(bot.me)
     except Exception as e:
-        print(f"ZIDDI_STRING - {str(e)}")
+        print(f"PROUD_STRING - {str(e)}")
         sys.exit()
 
 
@@ -45,9 +45,9 @@ else:
                 "BOT_TOKEN", api_id=Var.APP_ID, api_hash=Var.API_HASH
             ).start(bot_token=Var.BOT_TOKEN)
             LOGS.info("Checking Completed. Proceeding to next step...")
-            LOGS.info("♥️ Starting ziddiqueen ♥️")
+            LOGS.info("♥️ Starting proud indian bot ♥️")
             bot.loop.run_until_complete(add_bot(Config.BOT_USERNAME))
-            LOGS.info("🥇🔥 ziddiqueen Startup Completed 🔥🥇")
+            LOGS.info("🥇🔥 proud indian bot Startup Completed 🔥🥇")
         else:
             bot.start()
     except Exception as e:
@@ -154,10 +154,10 @@ print(
     f"""
 ╔════❰ZIDDIQUEEN❱═❍⊱❁۪۪
 ║┣⪼ OWNER - {Config.ALIVE_NAME}
-║┣⪼ Group - @ziddiqueen_Userbot
-║┣⪼ CREATOR - @divya_9955
-║┣⪼ ZIDDIQUEEN - {LEGENDversion}
-║┣⪼ ✨ 『🔱 ZIDDIQUEEN 🔱』𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨
+║┣⪼ Group - @Indianuserbot
+║┣⪼ CREATOR - @Sir_AgoraSwamy
+║┣⪼ PROUD-INDIAN-BOT - {LEGENDversion}
+║┣⪼ ✨ 『🔱 PROUD-INDIAN-BOT 🔱』𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍⊱"""
 )
