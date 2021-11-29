@@ -11,18 +11,18 @@ from var import Var
 
 BOTLOG = True
 StartTime = time.time()
-ZIDDIversion = "𝚅3.0"
+LEGENDversion = "𝚅3.0"
 botversion = "𝚅3.0"
 from .k import *
 
-if Config.ZIDDI_STRING:
-    session = StringSession(str(Config.ZIDDI_STRING))
+if Config.PROUD_STRING:
+    session = StringSession(str(Config.PROUD_STRING))
 else:
-    session = "ziddiqueen"
+    session = "legendbot"
 
 
 try:
-    ziddi = TelegramClient(
+    legend = TelegramClient(
         session=session,
         api_id=Config.APP_ID,
         api_hash=Config.API_HASH,
@@ -31,12 +31,12 @@ try:
         connection_retries=None,
     )
 except Exception as e:
-    print(f"ZIDDI_STRING - {e}")
+    print(f"PROUD_STRING - {e}")
     sys.exit()
 
 
-ziddiqueen = TelegramClient(
-    session="ziddi-queen",
+legendbot = TelegramClient(
+    session="legendbot",
     api_id=Config.APP_ID,
     api_hash=Config.API_HASH,
     connection=ConnectionTcpAbridged,
@@ -45,8 +45,8 @@ ziddiqueen = TelegramClient(
 ).start(bot_token=Config.BOT_TOKEN)
 
 
-bot = kbot = ziddi
-tbot = ziddiqueen
+bot = kbot = legend
+tbot = legendbot
 
 
 DEVS = ["2082798662"]
@@ -61,7 +61,7 @@ LOAD_PLUG = {}
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
 
-ZIDDI_ID = ["2082798662"]
+LEGEND_ID = ["2082798662"]
 
 """ PPE initialization. """
 
@@ -86,7 +86,7 @@ if bool(ENV):
         basicConfig(
             format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=INFO
         )
-    LOGS = getLogger("[ziddiqueen 3.0]")
+    LOGS = getLogger("[legendbot 3.0]")
 
 try:
     if Config.HEROKU_API_KEY is not None or Config.HEROKU_APP_NAME is not None:
