@@ -22,7 +22,7 @@ else:
 
 
 try:
-    Legend = TelegramClient(
+    proudindianbot = TelegramClient(
         session=session,
         api_id=Config.APP_ID,
         api_hash=Config.API_HASH,
@@ -35,7 +35,7 @@ except Exception as e:
     sys.exit()
 
 
-Legendbot = TelegramClient(
+proudindianbot = TelegramClient(
     session="proudindianbot",
     api_id=Config.APP_ID,
     api_hash=Config.API_HASH,
