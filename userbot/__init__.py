@@ -13,7 +13,6 @@ BOTLOG = True
 StartTime = time.time()
 LEGENDversion = "𝚅3.0"
 botversion = "𝚅3.0"
-PROUD-INDIAN_version= "1.0"
 from .k import *
 
 if Config.PROUD-INDIAN_STRING:
