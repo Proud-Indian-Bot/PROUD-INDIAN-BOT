@@ -146,8 +146,6 @@ bot.loop.run_until_complete(addons())
 bot.loop.run_until_complete(abuses())
 bot.loop.run_until_complete(assistants())
 bot.loop.run_until_complete(spams())
-bot.loop.create_task(hekp())
-bot.loop.run_until_complete(install())
 
 print(
     f"""
