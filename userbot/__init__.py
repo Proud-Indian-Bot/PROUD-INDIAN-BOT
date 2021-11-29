@@ -18,11 +18,11 @@ from .k import *
 if Config.PROUD_STRING:
     session = StringSession(str(Config.PROUD_STRING))
 else:
-    session = "proudindianbot"
+    session = "legendbot"
 
 
 try:
-    proudindianbot = TelegramClient(
+    Legend = TelegramClient(
         session=session,
         api_id=Config.APP_ID,
         api_hash=Config.API_HASH,
@@ -35,8 +35,8 @@ except Exception as e:
     sys.exit()
 
 
-proudindianbot = TelegramClient(
-    session="proudindianbot",
+LegendBot = TelegramClient(
+    session="Legend-Bot",
     api_id=Config.APP_ID,
     api_hash=Config.API_HASH,
     connection=ConnectionTcpAbridged,
@@ -61,7 +61,7 @@ LOAD_PLUG = {}
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
 
-PROUD_ID = ["2082798662"]
+LEGEND_ID = ["2082798662"]
 
 """ PPE initialization. """
 
@@ -86,7 +86,7 @@ if bool(ENV):
         basicConfig(
             format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=INFO
         )
-    LOGS = getLogger("[ᴢɪᴅᴅɪQᴜᴇᴇɴ 3.0]")
+    LOGS = getLogger("[Lêɠêɳ̃dẞø† 3.0]")
 
 try:
     if Config.HEROKU_API_KEY is not None or Config.HEROKU_APP_NAME is not None:
