@@ -160,7 +160,6 @@ print(
 )
 print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
 
-bot.loop.run_until_complete(legends())
 
 
 if len(sys.argv) not in (1, 3, 4):
