@@ -6,7 +6,7 @@ import telethon.utils
 from telethon import TelegramClient
 from telethon.tl.functions.channels import JoinChannelRequest
 
-from userbot import LOGS, ZIDDIversion, bot
+from userbot import LOGS, LEGENDversion, bot
 from userbot.Config import Config
 from userbot.utils import (
     load_abuse,
@@ -18,7 +18,7 @@ from userbot.utils import (
 from var import Var
 
 l2 = Config.SUDO_COMMAND_HAND_LER
-ziddi_PIC = "https://te.legra.ph/file/b27006471a50bce6e3d1a.jpg"
+PROUD-INDIAN_PIC = "https://telegra.ph/file/4605803a2e47710627a6d.jpg"
 l1 = Config.COMMAND_HAND_LER
 
 
@@ -28,7 +28,7 @@ async def add_bot(bot_token):
         bot.me = await bot.get_me()
         bot.uid = telethon.utils.get_peer_id(bot.me)
     except Exception as e:
-        print(f"ZIDDI_STRING - {str(e)}")
+        print(f"PROUD_STRING - {str(e)}")
         sys.exit()
 
 
@@ -43,9 +43,9 @@ else:
                 "BOT_TOKEN", api_id=Var.APP_ID, api_hash=Var.API_HASH
             ).start(bot_token=Var.BOT_TOKEN)
             LOGS.info("Checking Completed. Proceeding to next step...")
-            LOGS.info("♥️ Starting ziddiqueen ♥️")
+            LOGS.info("♥️ Starting proud indian bot ♥️")
             bot.loop.run_until_complete(add_bot(Config.BOT_USERNAME))
-            LOGS.info("🥇🔥 ziddiqueen Startup Completed 🔥🥇")
+            LOGS.info("🥇🔥 proud indian bot Startup Completed 🔥🥇")
         else:
             bot.start()
     except Exception as e:
@@ -150,45 +150,45 @@ bot.loop.run_until_complete(spams())
 
 print(
     f"""
-╔════❰ziddiqueen❱═❍⊱❁۪۪
+╔════❰PROUD-INDIAN-BOT❱═❍⊱❁۪۪
 ║┣⪼ OWNER - {Config.ALIVE_NAME}
-║┣⪼ Group - @ziddiqueen_Userbot
-║┣⪼ CREATOR - @divya_9955
-║┣⪼ ziddiqueen - {ZIDDIversion}
-║┣⪼ ✨ 『🔱 ZIDDIQUEEN 🔱』𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨
+║┣⪼ Group - @Indianuserbot
+║┣⪼ CREATOR -@Sir_AgoraSwamy
+║┣⪼ PROUD-INDIAN-BOT - {LEGENDversion}
+║┣⪼ ✨ 『🔱 PROUD-INDIAN-BOT 🔱』𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍⊱"""
 )
 print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
 
 
-async def ziddi_op():
+async def legend_op():
     try:
         os.environ[
-            "ZIDDI_STRING"
-        ] = "String Is A Sensitive Data \nSo Its Protected By ziddiqueen"
+            "PROUD_STRING"
+        ] = "String Is A Sensitive Data \nSo Its Protected By PROUD INDIAN BOT"
         if Config.LOGGER_ID != 0:
             await bot.send_file(
                 Config.LOGGER_ID,
-                ziddi_PIC,
-                caption=f"Deployed 𝖟𝖎𝖉𝖉𝖎𝖖𝖚𝖊𝖊𝖓 Successfully\n\n𝖟𝖎𝖉𝖉𝖎𝖖𝖚𝖊𝖊𝖓 ~ {ZIDDIversion}\n\nType `{l1}help` or `{l1}ping` to check!\nFor Assistant Type `.on` \n\nJoin [ziddiqueen Channel](t.me/ziddiqueen_userbot) for Updates & [ziddiqueen Chat](t.me/ziddiqueen_Userbot) for any query regarding ziddiqueen",
+                PROUD-INDIAN_PIC,
+                caption=f"Deployed 𝖟𝖎𝖉𝖉𝖎𝖖𝖚𝖊𝖊𝖓 Successfully\n\n𝖟𝖎𝖉𝖉𝖎𝖖𝖚𝖊𝖊𝖓 ~ {LEGENDversion}\n\nType `{l1}help` or `{l1}ping` to check!\nFor Assistant Type `.on` \n\nJoin [proud indian bot Channel](t.me/Indianuserbot) for Updates & [proud indian bot Chat](t.me/Indianuserbot) for any query regarding proud indian bot",
             )
     except Exception as e:
         print(str(e))
 
-    # Join ziddiqueen Channel after deploying 🤐😅
+    # Join proud indian bot Channel after deploying 🤐😅
     try:
-        await bot(JoinChannelRequest("@ziddiqueen_userbot"))
+        await bot(JoinChannelRequest("@Indianuserbot"))
     except BaseException:
         pass
 
     try:
-        await bot(JoinChannelRequest("@ziddiqueen_Userbot"))
+        await bot(JoinChannelRequest("@Indianuserbot"))
     except BaseException:
         pass
 
 
-bot.loop.create_task(ziddi_op())
+bot.loop.create_task(legend_op())
 if len(sys.argv) not in (1, 3, 4):
     bot.disconnect()
 else:
