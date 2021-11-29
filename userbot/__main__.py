@@ -21,7 +21,7 @@ from userbot.utils import (
 from var import Var
 
 l2 = Config.SUDO_COMMAND_HAND_LER
-LEGEND_PIC = "https://telegra.ph/file/e753315316673cff51085.mp4"
+PROUD-INDIAN_PIC = "https://telegra.ph/file/4605803a2e47710627a6d.jpg"
 l1 = Config.COMMAND_HAND_LER
 
 
@@ -31,7 +31,7 @@ async def add_bot(bot_token):
         bot.me = await bot.get_me()
         bot.uid = telethon.utils.get_peer_id(bot.me)
     except Exception as e:
-        print(f"LEGEND_STRING - {str(e)}")
+        print(f"PROUD-INDIAN_STRING - {str(e)}")
         sys.exit()
 
 
@@ -46,9 +46,9 @@ else:
                 "BOT_TOKEN", api_id=Var.APP_ID, api_hash=Var.API_HASH
             ).start(bot_token=Var.BOT_TOKEN)
             LOGS.info("Checking Completed. Proceeding to next step...")
-            LOGS.info("♥️ Starting LegendBot ♥️")
+            LOGS.info("♥️ Starting proud indian bot ♥️")
             bot.loop.run_until_complete(add_bot(Config.BOT_USERNAME))
-            LOGS.info("🥇🔥 LegendBot Startup Completed 🔥🥇")
+            LOGS.info("🥇🔥 proud indian bot Startup Completed 🔥🥇")
         else:
             bot.start()
     except Exception as e:
@@ -162,7 +162,7 @@ async def help(event):
                 ],
                 [
                     Button.url(" Support ", "https://t.me/Legend_Userbot"),
-                    Button.url(" Updates ", "https://t.me/Official_LegendBot"),
+                    Button.url(" Updates ", "https://t.me/indianuserbot"),
                 ],
                 [custom.Button.inline("⚙ Sᴇᴛᴛɪɴɢs ⚙", data="osg")],
                 [custom.Button.inline("⚜ Hack ⚜", data="ack")],
@@ -223,7 +223,7 @@ async def help(event):
     if event.query.user_id == bot.uid:
         await tgbot.send_message(
             event.chat_id,
-            message=f"**Wʜɪᴄʜ Aʟɪᴠᴇ Pɪᴄ Dᴏ Yᴏᴜ Wᴀɴᴛ Tᴏ Cʜᴀɴɢᴇ?\nFᴏʀ Aɴʏ Kɪɴᴅ Oғ Hᴇʟᴘ Dᴏ Jᴏɪɴ [Lêɠêɳ̃dẞø†](https://t.me/Official_LegendBot)**",
+            message=f"**Wʜɪᴄʜ Aʟɪᴠᴇ Pɪᴄ Dᴏ Yᴏᴜ Wᴀɴᴛ Tᴏ Cʜᴀɴɢᴇ?\nFᴏʀ Aɴʏ Kɪɴᴅ Oғ Hᴇʟᴘ Dᴏ Jᴏɪɴ [proud indian bot](https://t.me/indianuserbot)**",
             buttons=[
                 [Button.inline("✘ Dᴇғᴀᴜʟᴛ Aʟɪᴠᴇ ✘", data="aig")],
                 [Button.inline("✘ Bᴀᴄᴋ ✘", data="live")],
@@ -238,7 +238,7 @@ async def help(event):
     if event.query.user_id == bot.uid:
         await tgbot.send_message(
             event.chat_id,
-            message=f"**Yᴏᴜ Cᴀɴ Cʜᴀɴɢᴇ Aʟɪᴠᴇ Nᴀᴍᴇ..!!\nJᴜsᴛ Fᴏʟʟᴏᴡ Tʜᴇ Sᴛᴇᴘs.! \n\nFᴏʀ Aɴʏ Kɪɴᴅ Oғ Pʀᴏʙʟᴇᴍ Oʀ Dᴏᴜʙᴛ Dᴏ Jᴏɪɴ [Lêɠêɳ̃dẞø†](http://t.me/Official_LegendBot)\n\nJᴜsᴛ Tʏᴘᴇ\n\n`.set var ALIVE_NAME <Name>`\n\nRᴇᴍᴏᴠᴇ `<>` Tʜɪs.**",
+            message=f"**Yᴏᴜ Cᴀɴ Cʜᴀɴɢᴇ Aʟɪᴠᴇ Nᴀᴍᴇ..!!\nJᴜsᴛ Fᴏʟʟᴏᴡ Tʜᴇ Sᴛᴇᴘs.! \n\nFᴏʀ Aɴʏ Kɪɴᴅ Oғ Pʀᴏʙʟᴇᴍ Oʀ Dᴏᴜʙᴛ Dᴏ Jᴏɪɴ [proud indian bot](http://t.me/indianuserbot)\n\nJᴜsᴛ Tʏᴘᴇ\n\n`.set var ALIVE_NAME <Name>`\n\nRᴇᴍᴏᴠᴇ `<>` Tʜɪs.**",
             buttons=[
                 [Button.inline("✘ Bᴀᴄᴋ ✘", data="live")],
                 [Button.inline("🚫 Cᴀɴᴄᴇʟ 🚫", data="osg")],
@@ -252,7 +252,7 @@ async def help(event):
     if event.query.user_id == bot.uid:
         await tgbot.send_message(
             event.chat_id,
-            message=f"**You can change Alive Pic for `.alive`\nJust follow the steps.!\nAny kind of Problem or doubt do join [Lêɠêɳ̃dẞø†](t.me/Official_LegendBot)\n\nJust type\n\n`.set var ALIVE_PIC <Telegraph Link>`\n\nRemove `<>` this**",
+            message=f"**You can change Alive Pic for `.alive`\nJust follow the steps.!\nAny kind of Problem or doubt do join [proud indian bot](t.me/indianuserbot)\n\nJust type\n\n`.set var ALIVE_PIC <Telegraph Link>`\n\nRemove `<>` this**",
             buttons=[
                 [Button.inline("✘ Bᴀᴄᴋ ✘", data="img")],
                 [Button.inline("🚫 Cᴀɴᴄᴇʟ 🚫", data="osg")],
@@ -266,7 +266,7 @@ async def help(event):
     if event.query.user_id == bot.uid:
         await tgbot.send_message(
             event.chat_id,
-            message=f"**You can change Alive Pic for `.dalive` \nJust follow the steps.!\nAny kind of Problem or doubt do join [Lêɠêɳ̃dẞø†](t.me/Official_LegendBot)\n\nJust type\n\n`.set var AWAKE_PIC <Telegraph Link>`\n\nRemove `<>` this.**",
+            message=f"**You can change Alive Pic for `.dalive` \nJust follow the steps.!\nAny kind of Problem or doubt do join [proud indian bot](t.me/indianuserbott)\n\nJust type\n\n`.set var AWAKE_PIC <Telegraph Link>`\n\nRemove `<>` this.**",
             buttons=[
                 [Button.inline("✘ Bᴀᴄᴋ ✘", data="img")],
                 [Button.inline("🚫 Cᴀɴᴄᴇʟ 🚫", data="osg")],
@@ -280,7 +280,7 @@ async def help(event):
     if event.query.user_id == bot.uid:
         await tgbot.send_message(
             event.chat_id,
-            message=f"**You can change Alive Pic for `.alive`\nJust follow the steps.!\nAny kind of Problem or doubt do join [Lêɠêɳ̃dẞø†](t.me/Official_LegendBot)\n\nJust type\n\n`.set var ALIVE_PIC <Telegraph Link>`\n\nRemove `<>` this**",
+            message=f"**You can change Alive Pic for `.alive`\nJust follow the steps.!\nAny kind of Problem or doubt do join [proud indian bot](t.me/indianuserbott)\n\nJust type\n\n`.set var ALIVE_PIC <Telegraph Link>`\n\nRemove `<>` this**",
             buttons=[
                 [Button.inline("✘ Bᴀᴄᴋ ✘", data="img")],
                 [Button.inline("🚫 Cᴀɴᴄᴇʟ 🚫", data="osg")],
@@ -294,7 +294,7 @@ async def help(event):
     if event.query.user_id == bot.uid:
         await tgbot.send_message(
             event.chat_id,
-            message=f"**You can change Alive Pic for `.dalive` \nJust follow the steps.!\nAny kind of Problem or doubt do join [Lêɠêɳ̃dẞø†](t.me/Official_LegendBot)\n\nJust type\n\n`.set var AWAKE_PIC <Telegraph Link>`\n\nRemove `<>` this.**",
+            message=f"**You can change Alive Pic for `.dalive` \nJust follow the steps.!\nAny kind of Problem or doubt do join [proud indian bot](t.me/indianuserbott)\n\nJust type\n\n`.set var AWAKE_PIC <Telegraph Link>`\n\nRemove `<>` this.**",
             buttons=[
                 [Button.inline("✘ Bᴀᴄᴋ ✘", data="img")],
                 [Button.inline("🚫 Cᴀɴᴄᴇʟ 🚫", data="osg")],
@@ -308,7 +308,7 @@ async def help(event):
     if event.query.user_id == bot.uid:
         await tgbot.send_message(
             event.chat_id,
-            message=f"**What do you want to edit in Pm Permit?\nFor Any kind of Problem or doubt do join [Lêɠêɳ̃dẞø†](t.me/Official_LegendBot)**",
+            message=f"**What do you want to edit in Pm Permit?\nFor Any kind of Problem or doubt do join [proud indian bot](t.me/indianuserbott)**",
             buttons=[
                 [
                     Button.inline("✘ Pᴍ Pᴇʀᴍɪᴛ Tᴇxᴛ ✘", data="txt"),
@@ -325,7 +325,7 @@ async def help(event):
     if event.query.user_id == bot.uid:
         await tgbot.send_message(
             event.chat_id,
-            message=f"**You can change Pic permit Pic..!! \nJust follow the steps.!\nAny kind of Problem or doubt do join [Lêɠêɳ̃dẞø†](t.me/Official_LegendBot) type\n\n`.set var PM_PIC <Telegraph Link>`\n\nRemove `<>` this.**",
+            message=f"**You can change Pic permit Pic..!! \nJust follow the steps.!\nAny kind of Problem or doubt do join [proud indian bot](t.me/indianuserbott) type\n\n`.set var PM_PIC <Telegraph Link>`\n\nRemove `<>` this.**",
             buttons=[
                 [Button.inline("✘ Bᴀᴄᴋ ✘", data="pmit")],
                 [Button.inline("🚫 Cᴀɴᴄᴇʟ 🚫", data="osg")],
@@ -339,7 +339,7 @@ async def help(event):
     if event.query.user_id == bot.uid:
         await tgbot.send_message(
             event.chat_id,
-            message=f"**You can change Pic permit message..!! \nJust follow the steps.!\nAny kind of Problem or doubt do join [Lêɠêɳ̃dẞø†](t.me/Official_LegendBot)\n\nJust type\n\n`.set var PM_MSG <Text>`\n\nRemove `<>` this.**",
+            message=f"**You can change Pic permit message..!! \nJust follow the steps.!\nAny kind of Problem or doubt do join [proud indian bot](t.me/indianuserbott)\n\nJust type\n\n`.set var PM_MSG <Text>`\n\nRemove `<>` this.**",
             buttons=[
                 [Button.inline("✘ Bᴀᴄᴋ ✘", data="pmit")],
                 [Button.inline("🚫 Cᴀɴᴄᴇʟ 🚫", data="osg")],
@@ -353,7 +353,7 @@ async def help(event):
     if event.query.user_id == bot.uid:
         await tgbot.send_message(
             event.chat_id,
-            message=f"**Which type of setting do you want to edit?\nYou can change anything from these..!!\nAny kind for help do join [Lêɠêɳ̃dẞø†](t.me/Official_LegendBot)**",
+            message=f"**Which type of setting do you want to edit?\nYou can change anything from these..!!\nAny kind for help do join [proud indian bot](t.me/indianuserbott)**",
             buttons=[
                 [
                     Button.inline("✘ Aʟɪᴠᴇ ✘", data="live"),
@@ -406,24 +406,24 @@ async def hekp():
             await bot.send_file(
                 Config.LOGGER_ID,
                 LEGEND_PIC,
-                caption=f"Deployed Lêɠêɳ̃dẞø† Successfully\n\nLêɠêɳ̃dẞø† ~ {LEGENDversion}\n\nType `{l1}help` or `{l1}ping` to check!\nFor Assistant Type `.on` \n\nJoin [LegendBot Channel](t.me/Official_LegendBot) for Updates & [LegendBot Chat](t.me/Legend_Userbot) for any query regarding LegendBot",
+                caption=f"Deployed proud indian bot Successfully\n\nproud indian bot ~ {LEGENDversion}\n\nType `{l1}help` or `{l1}ping` to check!\nFor Assistant Type `.on` \n\nJoin [proud indian bot Channel](t.me/indianuserbott) for Updates & [proud indianbot Chat](t.me/indianuserbott) for any query regarding proud indian bot",
             )
     except Exception as e:
         print(str(e))
 
     try:
-        await bot(JoinChannelRequest("@Official_LegendBot"))
+        await bot(JoinChannelRequest("@indianuserbott"))
     except BaseException:
         pass
 
     try:
-        await bot(JoinChannelRequest("@Legend_Userbot"))
+        await bot(JoinChannelRequest("@indianuserbott"))
     except BaseException:
         pass
 
     try:
         if plc == "ON":
-            await bot(JoinChannelRequest("@Legend_UserbotPlugin"))
+            await bot(JoinChannelRequest("@indianuserbott"))
     except BaseException:
         pass
 
@@ -461,12 +461,12 @@ bot.loop.run_until_complete(install())
 
 print(
     f"""
-╔════❰LEGENDBOT❱═❍⊱❁۪۪
+╔════❰PROUD-INDIAN-BOT❱═❍⊱❁۪۪
 ║┣⪼ OWNER - {Config.ALIVE_NAME}
-║┣⪼ Group - @Legend_Userbot
-║┣⪼ CREATOR - @The_LegendBoy
-║┣⪼ LEGENDBOT - {LEGENDversion}
-║┣⪼ ✨ 『🔱🇱 🇪 🇬 🇪 🇳 🇩 🔱』𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨
+║┣⪼ Group - @indianuserbot
+║┣⪼ CREATOR - @Sir_AgoraSwamy
+║┣⪼ PROUD-INDIAN-BOT - {LEGENDversion}
+║┣⪼ ✨ 『🔱 𝖕𝖗𝖔𝖚𝖉-𝖎𝖓𝖉𝖎𝖆𝖓-𝖇𝖔𝖙 🔱』𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍⊱"""
 )
