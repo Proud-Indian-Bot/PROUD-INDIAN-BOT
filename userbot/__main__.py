@@ -21,7 +21,7 @@ from userbot.utils import (
 from var import Var
 
 l2 = Config.SUDO_COMMAND_HAND_LER
-PROUD-INDIAN_PIC = "https://telegra.ph/file/4605803a2e47710627a6d.jpg"
+PROUD_PIC = "https://telegra.ph/file/4605803a2e47710627a6d.jpg"
 l1 = Config.COMMAND_HAND_LER
 
 
