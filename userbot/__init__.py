@@ -22,7 +22,7 @@ else:
 
 
 try:
-    Legendbot = TelegramClient(
+    Legend = TelegramClient(
         session=session,
         api_id=Config.APP_ID,
         api_hash=Config.API_HASH,
