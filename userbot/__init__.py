@@ -61,7 +61,7 @@ LOAD_PLUG = {}
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
 
-PROUD-INDIAN_ID = ["2082798662"]
+LEGEND_ID = ["2082798662"]
 
 """ PPE initialization. """
 
