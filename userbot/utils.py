@@ -242,7 +242,7 @@ def load_abuse(shortname):
         spec.loader.exec_module(mod)
         # for imports
         sys.modules["ABUSE." + shortname] = mod
-        LOGS.info("🔱LegendBot-Abuse🔱 ~ " + shortname)
+        LOGS.info("🔱PROUD-INDIAN-BOT-Abuse🔱 ~ " + shortname)
 
 
 def assistant_cmd(add_cmd, is_args=False):
