@@ -61,7 +61,7 @@ LOAD_PLUG = {}
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
 
-ZIDDI_ID = ["2082798662"]
+PROUD_ID = ["2082798662"]
 
 """ PPE initialization. """
 
