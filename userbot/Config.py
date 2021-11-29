@@ -8,9 +8,9 @@ if ENV:
 
     class Config(object):
         NO_OF_COLOUMS_DISPLAYED_IN_H_ME_CMD = int(os.environ.get("NO_OF_COLUMNS", 2))
-        # emoji to be displayed  in help .legend
+        # emoji to be displayed  in help .proud
         NO_OF_COLUMNS = int(os.environ.get("NO_OF_COLUMNS", 2))
-        # emoji to be displayed  in help .legend
+        # emoji to be displayed  in help .proud
         BL_CHAT = os.environ.get("BL_CHAT", "-1001344140905")
         G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -1001169892177))
         FBAN_LOGGER_GROUP = os.environ.get("FBAN_LOGGER_GROUP", None)
@@ -64,29 +64,29 @@ if ENV:
         # alive
         ALIVE_PIC = (
             os.environ.get("ALIVE_PIC", None)
-            or "https://telegra.ph/file/af51de2749a4506d3eb43.jpg"
+            or " https://telegra.ph/file/03242b293a905158fa7d0.mp4"
         )
         PM_PIC = (
             os.environ.get("PM_PIC", None)
-            or "https://te.legra.ph/file/0c605739ddaa472cad75f.jpg"
+            or ""
         )
         AWAKE_PIC = (
             os.environ.get("AWAKE_PIC", None)
-            or "https://telegra.ph/file/47ffec836544b371408ab.mp4"
+            or "https://telegra.ph/file/4605803a2e47710627a6d.jpg"
         )
         HELP_PIC = (
             os.environ.get("OP_PIC", None)
-            or "https://te.legra.ph/file/b5d01ceea49ee0a822661.mp4"
+            or " https://telegra.ph/file/72c7dd54eb7212cdcbe4c.mp4"
         )
         PING_PIC = (
             os.environ.get("PING_PIC", None)
-            or "https://te.legra.ph/file/ace5feae5b1ac8ea262ed.jpg"
+            or "https://telegra.ph/file/12a37778e31c20fb79308.mp4"
         )
-        ALIVE_MSG = os.environ.get("ALIVE_MSG", None) or "Lêɠêɳ̃dẞø† Is Online"
+        ALIVE_MSG = os.environ.get("ALIVE_MSG", None) or "PROUD-INDIAN-BOT IS ALIVE IN"
         PM_MSG = os.environ.get("PM_MSG", None)
         INSTANT_BLOCK = os.environ.get("INSTANT_BLOCK", "DISABLE")
-        YOUR_GROUP = os.environ.get("YOUR_GROUP", "@Legend_Userbot")
-        YOUR_CHANNEL = os.environ.get("YOUR_CHANNEL", "@Official_LegendBot.")
+        YOUR_GROUP = os.environ.get("YOUR_GROUP", "@indianuserbot")
+        YOUR_CHANNEL = os.environ.get("YOUR_CHANNEL", "@proudindian_bot.")
         BOT_PIC = os.environ.get("ALIVE_PIC", None)
         # auto bio
         BIO_MSG = os.environ.get("ALIVE_MSG", None)
@@ -95,11 +95,11 @@ if ENV:
         LYDIA_API = os.environ.get("LYDIA_API", None)
         PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", None)
         UPSTREAM_REPO = os.environ.get(
-            "UPSTREAM_REPO", "https://github.com/LEGEND-OS/LEGENDBOT"
+            "UPSTREAM_REPO", "https://github.com/Proud-Indian-Bot/PROUD-INDIAN"
         )
         APP_ID = os.environ.get("APP_ID", None)
         API_HASH = os.environ.get("API_HASH", None)
-        LEGEND_STRING = os.environ.get("LEGEND_STRING", None)
+        LEGEND_STRING = os.environ.get("PROUD-INDIAN_STRING", None)
         BOT_MODE = os.environ.get("BOT_MODE", "ON")
         BOTLOG = True
         EXTRA_PLUGIN = os.environ.get("EXTRA_PLUGIN", None)
